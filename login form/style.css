@@ -1,0 +1,17 @@
+body {
+    background-image: url(/login\ form/img/1641239491902-01.jpeg);
+    background: cover;
+}
+
+h1 {
+    color: blue;
+}
+
+
+/* .bg-img{
+    background-image: url(/login\ form/)
+} */
+
+.btn {
+    background-color: rgb(0, 255, 106);
+}
