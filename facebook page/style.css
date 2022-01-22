@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+form {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.f-img {
+    width: 418px;
+    height: 187px;
+    margin: 2px 987px 120px 214px;
+}
+
+div {
+    width: 248px;
+    height: 120px;
+    padding: 5px 10px 20px 18px;
+    text-align: center;
+    margin: 2px 24px 124px 487px;
+}
