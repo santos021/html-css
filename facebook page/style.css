@@ -23,8 +23,8 @@ form {
 
 .f-img {
     width: 418px;
-    height: 187px;
-    margin: 2px 987px 120px 214px;
+    height: 210px;
+    margin: 50px 987px 50px 214px;
 }
 
 div {
@@ -33,4 +33,10 @@ div {
     padding: 5px 10px 20px 18px;
     text-align: center;
     margin: 2px 24px 124px 487px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
 }
