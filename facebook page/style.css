@@ -1,42 +1,130 @@
 * {
-    margin: 0%;
     padding: 0%;
-    text-decoration: none;
+    margin: 0%;
+    box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    background-color: white;
+    font-family: 'poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
 }
 
-form {
+main {
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    background-color: #fff;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fb-logo {
+    flex: 0 0 50%;
+    text-align: left;
+}
+
+.fb-form {
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.fb-logo img {
+    max-width: 300px;
+}
+
+.fb-logo h2 {
+    font: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+}
+
+.fb-form .form-container {
+    background-color: #ffffff;
     border: none;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-    box-sizing: border-box;
-    margin: 40px 0 0;
-    padding: 20px 0 28px;
-    width: 396px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
 }
 
-.f-img {
-    width: 418px;
-    height: 210px;
-    margin: 50px 987px 50px 214px;
+.fb-form .form-container input,
+.fb-form .form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
 }
 
-div {
-    width: 248px;
-    height: 120px;
-    padding: 5px 10px 20px 18px;
-    text-align: center;
-    margin: 2px 24px 124px 487px;
+.fb-form .form-container input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
 }
 
-p {
+.fb-form .form-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.fb-form .form-container .btn-login {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
     font-size: 20px;
-    font-weight: normal;
-    margin: 0;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.fb-form .form-container a {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #daddad;
+}
+
+.fb-form .form-container a:hover {
+    text-decoration: underline;
+}
+
+.fb-form .form-container .btn-new {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.fb-form p {
+    font-size: 14px;
+}
+
+.fb-form p a {
+    text-decoration: none;
+    color: #1c1e21;
+}
+
+.fb-form p a:hover {
+    text-decoration: underline;
 }
